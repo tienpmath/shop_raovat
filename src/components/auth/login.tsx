@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import ModalReactive from "./modal.reactive";
 import { useState } from "react";
 import ModalChangePassword from "./modal.change.password";
-
+import "@ant-design/v5-patch-for-react-19";
 const Login = () => {
   const router = useRouter();
   const [isModalOpen, setIsModalOpen] = useState(false);

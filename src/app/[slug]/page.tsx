@@ -21,7 +21,7 @@ const DetailPage = async (props: any) => {
   const sl = await props.params;
 
   const res = await fetch(
-    `http://localhost:8000/api/v1/products/detail/${sl.slug}`,
+    `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/v1/products/detail/${sl.slug}`,
     {
       method: "GET",
       next: { revalidate: 10000 },
