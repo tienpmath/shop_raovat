@@ -1,9 +1,9 @@
 {
-  "name": "01-next-rn",
+  "name": "tiendev",
   "version": "0.1.0",
   "author": {
-    "name": "Hỏi Dân IT",
-    "url": "https://hoidanit.vn"
+    "name": "Tiến Dev",
+    "url": "https://ictdalat.vn"
   },
   "private": true,
   "scripts": {
@@ -22,7 +22,7 @@
     "async-mutex": "^0.5.0",
     "axios": "^1.7.9",
     "draft-js": "^0.11.7",
-    "next": "15.17",
+    "next": "15.1.7",
     "next-auth": "5.0.0-beta.20",
     "query-string": "9.1.0",
     "random-uuid-v4": "^0.0.9",
