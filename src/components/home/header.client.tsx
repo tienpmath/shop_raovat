@@ -55,13 +55,8 @@ const Header = (props: IProps) => {
     },
     {
       label: <Link href={"/viec-lam"}>Việc Làm</Link>,
-      key: "/job",
+      key: "/viec-lam",
       icon: <CodeOutlined />,
-    },
-    {
-      label: <Link href={"/nha-dat"}>Nhà đất</Link>,
-      key: "/Nhà đất",
-      icon: <RiseOutlined />,
     },
   ];
 
